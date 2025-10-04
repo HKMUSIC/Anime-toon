@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>DRX Anime - Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="left">
+      <div class="logo">𝑫𝑹𝑿 𝑨𝑵𝑰𝑴𝑬</div>
+    </div>
+
+    <div class="center">
+      <div class="search-container">
+        <input id="searchInput" placeholder="Search Anime..." />
+        <div id="searchResults" class="search-results"></div>
+      </div>
+    </div>
+
+    <div class="right">
+      <a class="telegram-btn" href="https://t.me/thedrxnet" target="_blank">Join Telegram</a>
+    </div>
+  </header>
+
+  <!-- small intro video area (optional) -->
+  <section class="hero-video">
+    <!-- we will embed a small muted autoplay (can be used as banner) -->
+    <video id="heroVideo" autoplay muted loop playsinline>
+      <source src="https://files.catbox.moe/bsasma.mp4" type="video/mp4">
+    </video>
+  </section>
+
+  <main class="main-content">
+    <section class="welcome">
+      <div class="welcome-text">
+        <h2>Welcome to Drx Anime</h2>
+        <p>A platform where you watch ads-free anime & movies. Join telegram for more.</p>
+      </div>
+      <div id="anime-list" class="anime-list"></div>
+    </section>
+  </main>
+
+  <footer>© DRX Anime</footer>
+
+  <script type="module" src="app.js"></script>
+</body>
+  </html>
