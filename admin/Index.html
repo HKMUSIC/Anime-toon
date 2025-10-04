@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Admin - DRX Anime</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="admin-wrap">
+    <h2>Admin Panel</h2>
+
+    <div id="auth-area">
+      <input id="email" placeholder="email" />
+      <input id="password" placeholder="password" type="password" />
+      <button id="loginBtn">Login</button>
+      <button id="logoutBtn" style="display:none">Logout</button>
+      <div id="authMsg"></div>
+    </div>
+
+    <div id="admin-ui" style="display:none">
+      <h3>Add Anime</h3>
+      <input id="title" placeholder="Title" />
+      <input id="episodes" placeholder="Episodes (number)" />
+      <input id="img" placeholder="Image URL" />
+      <input id="video" placeholder="Video URL" />
+      <button id="addBtn">Add Anime</button>
+
+      <h3>Existing</h3>
+      <div id="list"></div>
+    </div>
+  </div>
+
+  <script type="module" src="admin.js"></script>
+</body>
+</html>
