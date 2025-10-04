@@ -1,0 +1,5 @@
+body{font-family:Arial;background:#0d0d0d;color:#fff;padding:20px}
+.admin-wrap{max-width:800px;margin:0 auto}
+input{display:block;padding:8px;margin:6px 0;width:100%;border-radius:6px;border:1px solid #333;background:#111;color:#fff}
+button{padding:8px 12px;background:#ff6600;border:none;color:#fff;border-radius:8px;cursor:pointer}
+#list .card{background:#111;padding:8px;margin:8px 0;border-radius:8px}
